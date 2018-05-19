@@ -1,0 +1,43 @@
+h1,h2,h3{
+    font-family: Lato;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.degrees-container{
+    width: 100%;
+    max-width:100%;
+    margin:0;
+}
+
+.banner{
+    height: 232px;
+    width: 100%;
+    position: relative;
+}
+
+img.banner{
+    height: 232px;
+}
+
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+.centered-bot {
+    top: 45%;
+    left: 2%;
+}
+
