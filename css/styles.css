@@ -7,16 +7,17 @@
 .header-navbar {
     background-color: #2D2558;
     /* height: 80px; */
+    box-shadow: 10px 5px 5px black;
 }
 
 .nav-item {
     padding-left: 30px;
 }
 .right-link {
-    padding-left: 100px;
+    padding-left: 50px;
 }
 .tuto-link {
-    padding-left: 80px;
+    padding-left: 90px;
 }
 .navbar-brand{
     position: relative;
@@ -25,11 +26,15 @@
       position: absolute;
       top: 5px;
       
-      left: -35px;
+      left: -37px;
 }
 
-.plan {
+ .plan, .tizimin, .ext {
     padding-left: 0;
+} 
+
+.servicios {
+    padding-right: 50px;
 }
 .hexagono {
 width: 100px; 
@@ -46,7 +51,7 @@ width: 100px;
     left: -20px; 
     width: 0; 
     height: 0; 
-    border-left: 75px solid transparent; 
-    border-right: 75px solid transparent; 
+    border-left: 80px solid transparent; 
+    border-right: 80px solid transparent; 
     border-top: 50px solid #2D2558;  
   }
