@@ -1,6 +1,15 @@
+var monthToShow = {month: 0, year: 0};
+
 window.onload = function(){
 	setTodayDate();
 	setCalendar();
+}
+
+function setTodayDate(){
+    var d = new Date();
+    monthToShow.month = d.getMonth();
+    monthToShow.year = d.getFullYear();
+    document.getElementById('todaysDate').innerHTML = changeDateLanguage(d, 'dmy');
 }
 
 function openCalendar(){
@@ -11,33 +20,36 @@ function openCalendar(){
 function closeCalendar(){
     document.getElementById('calendar-container').style.display = 'none';
 	document.getElementById('calendar-overlay').style.display = 'none';
+    resetMonthToShow();
+    setCalendar();
+    //setCalendar('actual');
 }
 
 function prevMonth(){
-	alert('prevMonth');
+	// alert('prevMonth');
+    changeMonthToShow(-1);
+    setCalendar();
 }
 
 function nextMonth(){
-	alert('nextMonth');
+	// alert('nextMonth');
+    changeMonthToShow(+1);
+    setCalendar();
 }
 
-function setTodayDate(){
-	var d = new Date();
-	document.getElementById('fechaHoy').innerHTML = setSpanishDate(d);
+function resetMonthToShow(){
+    var actualDate = new Date();
+    monthToShow.month = actualDate.getMonth();
+    monthToShow.year = actualDate.getFullYear();
 }
 
-function setSpanishDate(d){
-	var monthname=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
-	var weekday=['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
-	return d.getDate()+' de '+monthname[d.getMonth()]+' de '+d.getFullYear();
-}
-
-function setCalendar(){ 
-    var d = new Date();
-    var month_name = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+function setCalendar(){
+    var d = new Date(monthToShow.year, monthToShow.month);
     var month = d.getMonth();   //0-11
     var year = d.getFullYear(); //yyyy
-    var first_date = month_name[month] + ' ' + 1 + ' ' + year;
+
+    var monthName = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    var first_date = monthName[month] + ' ' + 1 + ' ' + year;
     //e.g. September 1 2014
     
     var first_date_full = new Date(first_date).toDateString();
@@ -50,9 +62,14 @@ function setCalendar(){
     //Tue Sep 30 2014 ...
 
     var calendar = getCalendar(day_no, monthTotalDays);
-    var monthname=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
-    document.getElementById('month-and-year').innerHTML = monthname[month]+' '+year;
-    document.getElementById('month-days').appendChild(calendar);
+    // var monthname=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+    document.getElementById('month-and-year').innerHTML = changeDateLanguage(d, 'my');
+    var divMonthDays = document.getElementById('month-days');
+    if(divMonthDays.firstChild){
+        divMonthDays.removeChild(divMonthDays.firstChild);
+    }
+    divMonthDays.appendChild(calendar);
+    // monthToShow = month;
 }
 
 function getCalendar(day_no, monthTotalDays){
@@ -108,6 +125,23 @@ function getCalendar(day_no, monthTotalDays){
     return table;
 }
 
+function changeMonthToShow(monthsToAdd){
+    actualMonth = monthToShow.month;
+    actualYear = monthToShow.year;
+    if(actualMonth > 0 && actualMonth < 11){
+        monthToShow.month += monthsToAdd;
+    }else if(actualMonth == 0 && monthsToAdd < 0){
+        monthToShow.month = 11;
+        monthToShow.year -= 1;
+    }else if(actualMonth == 11 && monthsToAdd > 0){
+        monthToShow.month = 0;
+        monthToShow.year += 1;
+    }else{
+        monthToShow.month += monthsToAdd;
+    }
+    console.log(monthToShow.month + ' ' + monthToShow.year);
+}
+
 function setTdDate(td, day, color){
     var br = document.createElement('br');
     var imgsvg = document.createElement('img');
@@ -121,4 +155,16 @@ function setTdDate(td, day, color){
     td.appendChild(imgsvg);
     td.appendChild(br);
     td.appendChild(label);
+}
+
+function changeDateLanguage(d, format){
+    var monthname=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+    // var weekday=['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
+    if(format=='dmy'){
+        return d.getDate()+' de '+monthname[d.getMonth()]+' de '+d.getFullYear();
+    }else if(format == 'my'){
+        return monthname[d.getMonth()] + ' ' + d.getFullYear();
+    }else{
+        return d.toString();
+    }
 }
