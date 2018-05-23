@@ -11,11 +11,11 @@
     <title>Facultad de Matemáticas</title>
 </head>
 <body>
-	<!-- Start Calendar -->
+	<!-- Start Calendar -->	
 	<div id="calendar-container" class="container-fluid calendar-container">
 		<div class="row">
 			<div class="calendar-nav"> 
-				<svg id="i-close" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" onclick="closeCalendar()">
+				<svg id="btnCloseCalendar" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" onclick="closeCalendar()">
 					<path d="M2 30 L30 2 M30 30 L2 2" />
 				</svg>
 			</div>
@@ -23,14 +23,14 @@
 		
 		<div class="row mt-3">
 			<div class="col-6 col-sm-auto order-sm-1">
-				<svg id="i-caret-left" viewBox="0 0 32 32" width="48" height="64" fill="white" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" onclick="prevMonth()">
+				<svg id="btnPrevMonth" viewBox="0 0 32 32" width="48" height="64" fill="white" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" onclick="prevMonth()">
 					<path d="M22 30 L6 16 22 2 Z" />
 				</svg>
 			</div> <!-- .left-arrow -->
 
 
 			<div class="col-6 col-sm-auto order-sm-3">
-				<svg id="i-caret-right" viewBox="0 0 32 32" width="48" height="64" fill="white" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" onclick="nextMonth()">
+				<svg id="btnNextMonth" viewBox="0 0 32 32" width="48" height="64" fill="white" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" onclick="nextMonth()">
 					<path d="M10 30 L26 16 10 2 Z" />
 				</svg>
 			</div> <!-- .right-arrow -->
@@ -49,7 +49,7 @@
 	<div id="calendar-overlay" class="calendar-overlay"></div>
 
 	<div class="navbar navbar-light header-calendar">
-		<button type="button" class="btn btn-toolbar btn-calendar" onclick="openCalendar()">
+		<button id="btnOpenCalendar" type="button" class="btn btn-toolbar btn-calendar" onclick="openCalendar()">
 			<div class="holiday-color-box"></div>
 			<label id="todaysDate"></label>
 		</button>

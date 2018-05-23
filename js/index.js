@@ -1,46 +1,65 @@
 var monthToShow = {month: 0, year: 0};
 
 window.onload = function(){
-	setTodayDate();
-	setCalendar();
+    resetMonthToShow();
+    setTodayDate();
 }
 
 function setTodayDate(){
-    var d = new Date();
-    monthToShow.month = d.getMonth();
-    monthToShow.year = d.getFullYear();
+    d = new Date();
     document.getElementById('todaysDate').innerHTML = changeDateLanguage(d, 'dmy');
 }
 
 function openCalendar(){
-    document.getElementById('calendar-overlay').style.display = 'block';
-    document.getElementById('calendar-container').style.display = 'block';
+    resetMonthToShow();
+    setCalendar();
+
+    divCalendarOverlay = document.getElementById('calendar-overlay');
+    divCalendarContainer = document.getElementById('calendar-container');
+
+    divCalendarOverlay.style.visibility = 'visible';
+    divCalendarContainer.style.visibility = 'visible';
+
+    if(divCalendarOverlay.classList.contains('fade-out-animation')){
+        divCalendarOverlay.classList.replace('fade-out-animation', 'fade-in-animation');
+    }else{
+        divCalendarOverlay.classList.add('fade-in-animation');
+    }
+
+    if(divCalendarContainer.classList.contains('fade-out-animation')){
+        divCalendarContainer.classList.replace('fade-out-animation', 'fade-in-animation');
+    }else{
+        divCalendarContainer.classList.add('fade-in-animation');
+    }
 }
 
 function closeCalendar(){
-    document.getElementById('calendar-container').style.display = 'none';
-	document.getElementById('calendar-overlay').style.display = 'none';
-    resetMonthToShow();
-    setCalendar();
-    //setCalendar('actual');
+    btnCloseCalendar = document.getElementById('btnCloseCalendar');
+    divCalendarContainer = document.getElementById('calendar-container');
+    if(divCalendarContainer.classList.contains('fade-in-animation')){
+        divCalendarContainer.classList.replace('fade-in-animation', 'fade-out-animation');
+    }
+    if(divCalendarOverlay.classList.contains('fade-in-animation')){
+        divCalendarOverlay.classList.replace('fade-in-animation', 'fade-out-animation');
+    }
 }
 
 function prevMonth(){
-	// alert('prevMonth');
     changeMonthToShow(-1);
     setCalendar();
 }
 
 function nextMonth(){
-	// alert('nextMonth');
     changeMonthToShow(+1);
     setCalendar();
 }
 
 function resetMonthToShow(){
     var actualDate = new Date();
-    monthToShow.month = actualDate.getMonth();
-    monthToShow.year = actualDate.getFullYear();
+    if(monthToShow.month != actualDate.getMonth() || monthToShow.year != actualDate.year){
+        monthToShow.month = actualDate.getMonth();
+        monthToShow.year = actualDate.getFullYear();
+    }
 }
 
 function setCalendar(){
@@ -62,14 +81,12 @@ function setCalendar(){
     //Tue Sep 30 2014 ...
 
     var calendar = getCalendar(day_no, monthTotalDays);
-    // var monthname=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
     document.getElementById('month-and-year').innerHTML = changeDateLanguage(d, 'my');
     var divMonthDays = document.getElementById('month-days');
     if(divMonthDays.firstChild){
         divMonthDays.removeChild(divMonthDays.firstChild);
     }
     divMonthDays.appendChild(calendar);
-    // monthToShow = month;
 }
 
 function getCalendar(day_no, monthTotalDays){
@@ -139,7 +156,6 @@ function changeMonthToShow(monthsToAdd){
     }else{
         monthToShow.month += monthsToAdd;
     }
-    console.log(monthToShow.month + ' ' + monthToShow.year);
 }
 
 function setTdDate(td, day, color){
@@ -159,7 +175,6 @@ function setTdDate(td, day, color){
 
 function changeDateLanguage(d, format){
     var monthname=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
-    // var weekday=['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
     if(format=='dmy'){
         return d.getDate()+' de '+monthname[d.getMonth()]+' de '+d.getFullYear();
     }else if(format == 'my'){
