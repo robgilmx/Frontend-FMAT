@@ -88,7 +88,7 @@ svg:hover{
     font-size: 14px;
     color: white;
     background-color: #2D2558;
-    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
 }
 
@@ -104,7 +104,7 @@ svg:hover{
 .header-navbar {
     background-color: #2D2558;
     /* height: 80px; */
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.25);
 }
 
 .nav-item {
