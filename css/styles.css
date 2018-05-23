@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after {
@@ -152,3 +153,145 @@ width: 100px;
     border-right: 80px solid transparent; 
     border-top: 50px solid #2D2558;  
   }
+
+.body-text{
+    font-family: 'Merriweather';
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: justify;
+}
+.body-text-right{
+    font-family: 'Merriweather';
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+h1,h2,h3{
+    font-family: Lato;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 24px;
+    font-family: Lato;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+h5{
+    font-family: Merriweather;
+    font-size: 18px;
+    color: #4F4F4F;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+h6{
+    font-family: Merriweather;
+    font-size: 14px;
+    font-style: oblique;
+}
+
+.degrees-container{
+    width: 100%;
+    max-width:100%;
+    margin:0;
+}
+
+.banner{
+    height: 232px;
+    width: 100%;
+    position: relative;
+}
+
+img.banner{
+    height: 232px;
+}
+
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+.centered-bot {
+    top: 45%;
+}
+
+.uady-navbar{
+    padding: 0  !important;
+    align-items: center !important;
+    alignment: center !important;
+
+}
+
+.uady-navbar, .uady-navbar *{
+    background-color: #413E7C !important;
+    color: #FFFFFF !important;
+    text-align: center !important;
+}
+
+.uady-navbar li a * {
+    color: #FFFFFF !important;
+}
+
+.uady-navbar li a:hover{
+    background-color: #505090 !important;
+}
+
+
+.uady-navbar li .dropdown-menu{
+    top: 90% !important;
+    width: 100%;
+    border-radius: 0;
+}
+
+.uady-navbar li.active  * {
+    background-color: #C78D2A !important;
+}
+.uady-navbar li.active div a.dropdown-item:hover{
+    background-color: #BE6A1C !important;
+}
+
+.uady-navbar li.active > a:hover{
+    background-color: #BE6A1C !important;
+}
+
+.lis-banner{
+    background-color: #2D2558 !important;
+    color: #FFFFFF; !important;
+}
+
+.acreditation{
+    width: 95%;
+    border: #e1e1e1 solid .1em;
+}
+.note{
+    background-color: #D0B83B;
+    padding: 8px;
+}
+.head-table{
+    background-color:#2D2558;
+    color: #fafafa;
+}
+.body-table{
+    background-color: #D0B83B;
+    color: #fafafa;
+}
+
+embed{
+    margin-bottom: 40px;
+}
+
+img{
+    margin-bottom: 32px;
+}
+
