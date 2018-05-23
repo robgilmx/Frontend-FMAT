@@ -175,6 +175,7 @@ width: 100px;
     top: 0;
     left: 100%;
     margin-top: -1px;
+}
 
 .body-text{
     font-family: 'Merriweather';
@@ -317,3 +318,8 @@ img{
     margin-bottom: 32px;
 }
 
+@media (max-width:640px) {
+    .info{
+        margin-top: 100px;
+    }
+}
