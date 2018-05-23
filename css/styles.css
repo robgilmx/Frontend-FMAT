@@ -196,14 +196,16 @@ width: 100px;
 
 .body-text{
     font-family: 'Merriweather';
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 8px;
     text-align: justify;
+    line-height: 25px;
 }
 .body-text-right{
     font-family: 'Merriweather';
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 8px;
+    line-height: 25px;
 }
 
 h1,h2,h3{
@@ -231,8 +233,8 @@ h5{
     font-family: Merriweather;
     font-size: 18px;
     color: #4F4F4F;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 24px;
+    margin-bottom: 16px;
 }
 h6{
     font-family: Merriweather;
