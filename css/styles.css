@@ -153,6 +153,19 @@ width: 100px;
     border-right: 80px solid transparent; 
     border-top: 50px solid #2D2558;  
   }
+  .dropdown-menu{
+  background:#2D2558;
+  color:white;
+
+}
+.dropdown-item{
+  color:white;
+}
+
+.dropdown-item:hover{
+   background-color: #C78D2A;
+   color: white;
+}
 
 .body-text{
     font-family: 'Merriweather';
