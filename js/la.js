@@ -3,7 +3,7 @@ window.onload = (function () {
 });
 
 function loadHeader(){
-    $('.degrees-container').load("banner.html");
+    $('.degree-banner-container').load("banner.html");
     $('.degrees-menu').load("menu.html");
 }
 
