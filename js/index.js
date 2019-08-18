@@ -183,3 +183,10 @@ function changeDateLanguage(d, format){
         return d.toString();
     }
 }
+
+function showLIS(){
+    $('.index-container').empty();
+    $('.index-container').load("lis/objetivos.html", function () {
+        loadLISHeader();
+    });
+}

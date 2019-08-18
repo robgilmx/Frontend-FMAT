@@ -242,7 +242,7 @@ h6{
     font-style: oblique;
 }
 
-.degree-banner-container{
+.degree-container{
     width: 100%;
     max-width:100%;
     margin:0;
@@ -308,6 +308,7 @@ img.banner{
 }
 
 .lis-banner{
+    z-index: 900;
     background-color: #2D2558 !important;
     color: #FFFFFF; !important;
 }

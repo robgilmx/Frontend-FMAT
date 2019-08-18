@@ -1,73 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="900b02ff-167e-4d33-9af1-f6fcbcddeccf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/frontend-FMAT.iml" afterPath="$PROJECT_DIR$/.idea/frontend-FMAT.iml" />
+    <list default="true" id="900b02ff-167e-4d33-9af1-f6fcbcddeccf" name="Default" comment="Commit incial, rama licenciaturas.&#10;Implementado: &#10;* Licenciatura de Ingeneria de Software.&#10;Incluye:&#10;* Menú&#10;* Lector PDF&#10;* CSS&#10;* Banner&#10;* Archivos PDF&#10;* Información real&#10;&#10;&#10;&#10;Autor: Roberto Gil.&#10;:joy::ok_hand::point_right::fire:">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/banner.html" afterPath="$PROJECT_DIR$/banner.html" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/la.js" afterPath="$PROJECT_DIR$/js/la.js" />
-      <change beforePath="$PROJECT_DIR$/js/lcc.js" afterPath="$PROJECT_DIR$/js/lcc.js" />
-      <change beforePath="$PROJECT_DIR$/js/lem.js" afterPath="$PROJECT_DIR$/js/lem.js" />
-      <change beforePath="$PROJECT_DIR$/js/lic.js" afterPath="$PROJECT_DIR$/js/lic.js" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
       <change beforePath="$PROJECT_DIR$/js/lis.js" afterPath="$PROJECT_DIR$/js/lis.js" />
-      <change beforePath="$PROJECT_DIR$/js/lm.js" afterPath="$PROJECT_DIR$/js/lm.js" />
-      <change beforePath="$PROJECT_DIR$/la/banner.html" afterPath="$PROJECT_DIR$/la/banner.html" />
-      <change beforePath="$PROJECT_DIR$/la/guia-estudiante.html" afterPath="$PROJECT_DIR$/la/guia-estudiante.html" />
-      <change beforePath="$PROJECT_DIR$/la/malla-mefi.html" afterPath="$PROJECT_DIR$/la/malla-mefi.html" />
-      <change beforePath="$PROJECT_DIR$/la/objetivos.html" afterPath="$PROJECT_DIR$/la/objetivos.html" />
-      <change beforePath="$PROJECT_DIR$/la/perfil-egreso.html" afterPath="$PROJECT_DIR$/la/perfil-egreso.html" />
-      <change beforePath="$PROJECT_DIR$/la/perfil-ingreso.html" afterPath="$PROJECT_DIR$/la/perfil-ingreso.html" />
-      <change beforePath="$PROJECT_DIR$/la/plan-desarrollo.html" afterPath="$PROJECT_DIR$/la/plan-desarrollo.html" />
-      <change beforePath="$PROJECT_DIR$/la/plan-mefi.html" afterPath="$PROJECT_DIR$/la/plan-mefi.html" />
-      <change beforePath="$PROJECT_DIR$/la/plan-meya.html" afterPath="$PROJECT_DIR$/la/plan-meya.html" />
-      <change beforePath="$PROJECT_DIR$/lcc/banner.html" afterPath="$PROJECT_DIR$/lcc/banner.html" />
-      <change beforePath="$PROJECT_DIR$/lcc/guia-estudiante.html" afterPath="$PROJECT_DIR$/lcc/guia-estudiante.html" />
-      <change beforePath="$PROJECT_DIR$/lcc/malla-mefi.html" afterPath="$PROJECT_DIR$/lcc/malla-mefi.html" />
-      <change beforePath="$PROJECT_DIR$/lcc/objetivos.html" afterPath="$PROJECT_DIR$/lcc/objetivos.html" />
-      <change beforePath="$PROJECT_DIR$/lcc/perfil-egreso.html" afterPath="$PROJECT_DIR$/lcc/perfil-egreso.html" />
-      <change beforePath="$PROJECT_DIR$/lcc/perfil-ingreso.html" afterPath="$PROJECT_DIR$/lcc/perfil-ingreso.html" />
-      <change beforePath="$PROJECT_DIR$/lcc/plan-desarrollo.html" afterPath="$PROJECT_DIR$/lcc/plan-desarrollo.html" />
-      <change beforePath="$PROJECT_DIR$/lcc/plan-mefi.html" afterPath="$PROJECT_DIR$/lcc/plan-mefi.html" />
-      <change beforePath="$PROJECT_DIR$/lcc/plan-meya.html" afterPath="$PROJECT_DIR$/lcc/plan-meya.html" />
-      <change beforePath="$PROJECT_DIR$/lem/banner.html" afterPath="$PROJECT_DIR$/lem/banner.html" />
-      <change beforePath="$PROJECT_DIR$/lem/guia-estudiante.html" afterPath="$PROJECT_DIR$/lem/guia-estudiante.html" />
-      <change beforePath="$PROJECT_DIR$/lem/malla-mefi.html" afterPath="$PROJECT_DIR$/lem/malla-mefi.html" />
-      <change beforePath="$PROJECT_DIR$/lem/objetivos.html" afterPath="$PROJECT_DIR$/lem/objetivos.html" />
-      <change beforePath="$PROJECT_DIR$/lem/perfil-egreso.html" afterPath="$PROJECT_DIR$/lem/perfil-egreso.html" />
-      <change beforePath="$PROJECT_DIR$/lem/perfil-ingreso.html" afterPath="$PROJECT_DIR$/lem/perfil-ingreso.html" />
-      <change beforePath="$PROJECT_DIR$/lem/plan-desarrollo.html" afterPath="$PROJECT_DIR$/lem/plan-desarrollo.html" />
-      <change beforePath="$PROJECT_DIR$/lem/plan-mefi.html" afterPath="$PROJECT_DIR$/lem/plan-mefi.html" />
-      <change beforePath="$PROJECT_DIR$/lem/plan-meya.html" afterPath="$PROJECT_DIR$/lem/plan-meya.html" />
-      <change beforePath="$PROJECT_DIR$/lic/banner.html" afterPath="$PROJECT_DIR$/lic/banner.html" />
-      <change beforePath="$PROJECT_DIR$/lic/guia-estudiante.html" afterPath="$PROJECT_DIR$/lic/guia-estudiante.html" />
-      <change beforePath="$PROJECT_DIR$/lic/malla-mefi.html" afterPath="$PROJECT_DIR$/lic/malla-mefi.html" />
-      <change beforePath="$PROJECT_DIR$/lic/objetivos.html" afterPath="$PROJECT_DIR$/lic/objetivos.html" />
-      <change beforePath="$PROJECT_DIR$/lic/perfil-egreso.html" afterPath="$PROJECT_DIR$/lic/perfil-egreso.html" />
-      <change beforePath="$PROJECT_DIR$/lic/perfil-ingreso.html" afterPath="$PROJECT_DIR$/lic/perfil-ingreso.html" />
-      <change beforePath="$PROJECT_DIR$/lic/plan-desarrollo.html" afterPath="$PROJECT_DIR$/lic/plan-desarrollo.html" />
-      <change beforePath="$PROJECT_DIR$/lic/plan-mefi.html" afterPath="$PROJECT_DIR$/lic/plan-mefi.html" />
-      <change beforePath="$PROJECT_DIR$/lic/plan-meya.html" afterPath="$PROJECT_DIR$/lic/plan-meya.html" />
-      <change beforePath="$PROJECT_DIR$/lis/banner.html" afterPath="$PROJECT_DIR$/lis/banner.html" />
-      <change beforePath="$PROJECT_DIR$/lis/guia-estudiante.html" afterPath="$PROJECT_DIR$/lis/guia-estudiante.html" />
-      <change beforePath="$PROJECT_DIR$/lis/malla-mefi.html" afterPath="$PROJECT_DIR$/lis/malla-mefi.html" />
-      <change beforePath="$PROJECT_DIR$/lis/menu.html" afterPath="$PROJECT_DIR$/lis/menu.html" />
-      <change beforePath="$PROJECT_DIR$/lis/objetivos.html" afterPath="$PROJECT_DIR$/lis/objetivos.html" />
-      <change beforePath="$PROJECT_DIR$/lis/perfil-egreso.html" afterPath="$PROJECT_DIR$/lis/perfil-egreso.html" />
-      <change beforePath="$PROJECT_DIR$/lis/perfil-ingreso.html" afterPath="$PROJECT_DIR$/lis/perfil-ingreso.html" />
-      <change beforePath="$PROJECT_DIR$/lis/plan-desarrollo.html" afterPath="$PROJECT_DIR$/lis/plan-desarrollo.html" />
-      <change beforePath="$PROJECT_DIR$/lis/plan-mefi.html" afterPath="$PROJECT_DIR$/lis/plan-mefi.html" />
-      <change beforePath="$PROJECT_DIR$/lis/plan-meya.html" afterPath="$PROJECT_DIR$/lis/plan-meya.html" />
-      <change beforePath="$PROJECT_DIR$/lm/banner.html" afterPath="$PROJECT_DIR$/lm/banner.html" />
-      <change beforePath="$PROJECT_DIR$/lm/guia-estudiante.html" afterPath="$PROJECT_DIR$/lm/guia-estudiante.html" />
-      <change beforePath="$PROJECT_DIR$/lm/malla-mefi.html" afterPath="$PROJECT_DIR$/lm/malla-mefi.html" />
-      <change beforePath="$PROJECT_DIR$/lm/objetivos.html" afterPath="$PROJECT_DIR$/lm/objetivos.html" />
-      <change beforePath="$PROJECT_DIR$/lm/perfil-egreso.html" afterPath="$PROJECT_DIR$/lm/perfil-egreso.html" />
-      <change beforePath="$PROJECT_DIR$/lm/perfil-ingreso.html" afterPath="$PROJECT_DIR$/lm/perfil-ingreso.html" />
-      <change beforePath="$PROJECT_DIR$/lm/plan-desarrollo.html" afterPath="$PROJECT_DIR$/lm/plan-desarrollo.html" />
-      <change beforePath="$PROJECT_DIR$/lm/plan-mefi.html" afterPath="$PROJECT_DIR$/lm/plan-mefi.html" />
-      <change beforePath="$PROJECT_DIR$/lm/plan-meya.html" afterPath="$PROJECT_DIR$/lm/plan-meya.html" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,8 +24,18 @@
       <file leaf-file-name="objetivos.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lis/objetivos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-955">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="378">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="86" lean-forward="false" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -105,8 +54,8 @@
       <file leaf-file-name="lis.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/lis.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            <state relative-caret-position="184">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,31 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banner.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lis/banner.html">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="guia-estudiante.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lis/guia-estudiante.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lcc.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/lcc.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="226">
+              <caret line="184" column="1" lean-forward="true" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -164,11 +93,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="banner.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lis/banner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="310" column="17" lean-forward="false" selection-start-line="310" selection-start-column="17" selection-end-line="310" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+            <state relative-caret-position="265">
+              <caret line="69" column="19" lean-forward="false" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -207,6 +156,8 @@
       <find>tizimin</find>
       <find>degree-content</find>
       <find>degree</find>
+      <find>containe</find>
+      <find>LIS</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -220,11 +171,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <push-targets>
+      <push-target-info target-remote="neworigin" target-branch="master" repo="$PROJECT_DIR$" source="master" />
+    </push-targets>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/la/perfil-ingreso.html" />
         <option value="$PROJECT_DIR$/la/plan-desarrollo.html" />
         <option value="$PROJECT_DIR$/la/plan-mefi.html" />
         <option value="$PROJECT_DIR$/la/plan-meya.html" />
@@ -266,15 +219,16 @@
         <option value="$PROJECT_DIR$/lm/plan-desarrollo.html" />
         <option value="$PROJECT_DIR$/lm/plan-mefi.html" />
         <option value="$PROJECT_DIR$/lm/plan-meya.html" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/lis/banner.html" />
         <option value="$PROJECT_DIR$/banner.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/lis/objetivos.html" />
         <option value="$PROJECT_DIR$/lis/guia-estudiante.html" />
         <option value="$PROJECT_DIR$/lis/menu.html" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/lis/banner.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/lis/objetivos.html" />
         <option value="$PROJECT_DIR$/js/lis.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -324,6 +278,11 @@
             <path>
               <item name="frontend-FMAT - copia" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend-FMAT - copia" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="frontend-FMAT - copia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend-FMAT - copia" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="frontend-FMAT - copia" type="b2602c69:ProjectViewProjectNode" />
@@ -432,21 +391,30 @@
       <workItem from="1527086048220" duration="501000" />
       <workItem from="1527089133964" duration="1409000" />
       <workItem from="1566096652487" duration="3171000" />
-      <workItem from="1566100967769" duration="8542000" />
+      <workItem from="1566100967769" duration="9870000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit incial, rama licenciaturas.&#10;Implementado: &#10;* Licenciatura de Ingeneria de Software.&#10;Incluye:&#10;* Menú&#10;* Lector PDF&#10;* CSS&#10;* Banner&#10;* Archivos PDF&#10;* Información real&#10;&#10;&#10;&#10;Autor: Roberto Gil.&#10;:joy::ok_hand::point_right::fire:">
+      <created>1566110520944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566110520944</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70781000" />
+    <option name="totallyTimeSpent" value="72109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07674944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1625" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
@@ -457,7 +425,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
@@ -541,22 +508,6 @@
     <entry file="file://$PROJECT_DIR$/lm/malla-mefi.html" />
     <entry file="file://$PROJECT_DIR$/lm/objetivos.html" />
     <entry file="file://$PROJECT_DIR$/lm/perfil-egreso.html" />
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5922">
-          <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untitled.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -594,42 +545,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="165" column="10" lean-forward="false" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="18" column="86" lean-forward="false" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lis/banner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lis/guia-estudiante.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1029">
           <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -644,10 +571,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/lis.js">
+    <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        <state relative-caret-position="226">
+          <caret line="184" column="1" lean-forward="true" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lis/banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="310" column="17" lean-forward="false" selection-start-line="310" selection-start-column="17" selection-end-line="310" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -660,18 +611,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="86" lean-forward="false" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lis/objetivos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-955">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="378">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+        <state relative-caret-position="265">
+          <caret line="69" column="19" lean-forward="false" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
           <folding />
         </state>
       </provider>

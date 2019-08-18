@@ -1,8 +1,8 @@
 window.onload= (function () {
-    loadHeader();
+    loadLISHeader();
 });
 
-function loadHeader(){
+function loadLISHeader(){
     $('.degree-banner-container').load("lis/banner.html");
     $('.degrees-menu').load("lis/menu.html");
 }
@@ -15,12 +15,10 @@ function setNavbarActive() {
 }
 
 function showGuia(){
-    console.log("Show console");
     $('.degree-container').empty();
     $('.degree-container').load('lis/guia-estudiante.html');
 }
 function showObjetivos(){
-    console.log("Show console");
     $('.degree-container').empty();
     $('.degree-container').load('lis/objetivos.html');
 }
