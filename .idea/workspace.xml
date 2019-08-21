@@ -1,78 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="900b02ff-167e-4d33-9af1-f6fcbcddeccf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/skin_side_up_@2X.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="900b02ff-167e-4d33-9af1-f6fcbcddeccf" name="Default" comment="Repair complete!&#10;Run index.php file to test the project!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fmat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/la.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lcc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/la/guia-estudiante.html" beforeDir="false" afterPath="$PROJECT_DIR$/la/guia-estudiante.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/la/malla-mefi.html" beforeDir="false" afterPath="$PROJECT_DIR$/la/malla-mefi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/la/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/la/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/la/objetivos.html" beforeDir="false" afterPath="$PROJECT_DIR$/la/objetivos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/la/perfil-egreso.html" beforeDir="false" afterPath="$PROJECT_DIR$/la/perfil-egreso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/la/perfil-ingreso.html" beforeDir="false" afterPath="$PROJECT_DIR$/la/perfil-ingreso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/la/plan-desarrollo.html" beforeDir="false" afterPath="$PROJECT_DIR$/la/plan-desarrollo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/la/plan-mefi.html" beforeDir="false" afterPath="$PROJECT_DIR$/la/plan-mefi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/la/plan-meya.html" beforeDir="false" afterPath="$PROJECT_DIR$/la/plan-meya.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcc/guia-estudiante.html" beforeDir="false" afterPath="$PROJECT_DIR$/lcc/guia-estudiante.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcc/malla-mefi.html" beforeDir="false" afterPath="$PROJECT_DIR$/lcc/malla-mefi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcc/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/lcc/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcc/objetivos.html" beforeDir="false" afterPath="$PROJECT_DIR$/lcc/objetivos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcc/perfil-egreso.html" beforeDir="false" afterPath="$PROJECT_DIR$/lcc/perfil-egreso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcc/perfil-ingreso.html" beforeDir="false" afterPath="$PROJECT_DIR$/lcc/perfil-ingreso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcc/plan-desarrollo.html" beforeDir="false" afterPath="$PROJECT_DIR$/lcc/plan-desarrollo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcc/plan-mefi.html" beforeDir="false" afterPath="$PROJECT_DIR$/lcc/plan-mefi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcc/plan-meya.html" beforeDir="false" afterPath="$PROJECT_DIR$/lcc/plan-meya.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem/guia-estudiante.html" beforeDir="false" afterPath="$PROJECT_DIR$/lem/guia-estudiante.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem/malla-mefi.html" beforeDir="false" afterPath="$PROJECT_DIR$/lem/malla-mefi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/lem/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem/objetivos.html" beforeDir="false" afterPath="$PROJECT_DIR$/lem/objetivos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem/perfil-egreso.html" beforeDir="false" afterPath="$PROJECT_DIR$/lem/perfil-egreso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem/perfil-ingreso.html" beforeDir="false" afterPath="$PROJECT_DIR$/lem/perfil-ingreso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem/plan-desarrollo.html" beforeDir="false" afterPath="$PROJECT_DIR$/lem/plan-desarrollo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem/plan-mefi.html" beforeDir="false" afterPath="$PROJECT_DIR$/lem/plan-mefi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem/plan-meya.html" beforeDir="false" afterPath="$PROJECT_DIR$/lem/plan-meya.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lic/guia-estudiante.html" beforeDir="false" afterPath="$PROJECT_DIR$/lic/guia-estudiante.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lic/malla-mefi.html" beforeDir="false" afterPath="$PROJECT_DIR$/lic/malla-mefi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lic/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/lic/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lic/objetivos.html" beforeDir="false" afterPath="$PROJECT_DIR$/lic/objetivos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lic/perfil-egreso.html" beforeDir="false" afterPath="$PROJECT_DIR$/lic/perfil-egreso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lic/perfil-ingreso.html" beforeDir="false" afterPath="$PROJECT_DIR$/lic/perfil-ingreso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lic/plan-desarrollo.html" beforeDir="false" afterPath="$PROJECT_DIR$/lic/plan-desarrollo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lic/plan-mefi.html" beforeDir="false" afterPath="$PROJECT_DIR$/lic/plan-mefi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lic/plan-meya.html" beforeDir="false" afterPath="$PROJECT_DIR$/lic/plan-meya.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lis/guia-estudiante.html" beforeDir="false" afterPath="$PROJECT_DIR$/lis/guia-estudiante.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lis/malla-mefi.html" beforeDir="false" afterPath="$PROJECT_DIR$/lis/malla-mefi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lis/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/lis/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lis/objetivos.html" beforeDir="false" afterPath="$PROJECT_DIR$/lis/objetivos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lis/perfil-egreso.html" beforeDir="false" afterPath="$PROJECT_DIR$/lis/perfil-egreso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lis/perfil-ingreso.html" beforeDir="false" afterPath="$PROJECT_DIR$/lis/perfil-ingreso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lis/plan-desarrollo.html" beforeDir="false" afterPath="$PROJECT_DIR$/lis/plan-desarrollo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lis/plan-mefi.html" beforeDir="false" afterPath="$PROJECT_DIR$/lis/plan-mefi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lis/plan-meya.html" beforeDir="false" afterPath="$PROJECT_DIR$/lis/plan-meya.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/guia-estudiante.html" beforeDir="false" afterPath="$PROJECT_DIR$/lm/guia-estudiante.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/malla-mefi.html" beforeDir="false" afterPath="$PROJECT_DIR$/lm/malla-mefi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/lm/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/objetivos.html" beforeDir="false" afterPath="$PROJECT_DIR$/lm/objetivos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/perfil-egreso.html" beforeDir="false" afterPath="$PROJECT_DIR$/lm/perfil-egreso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/perfil-ingreso.html" beforeDir="false" afterPath="$PROJECT_DIR$/lm/perfil-ingreso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/plan-desarrollo.html" beforeDir="false" afterPath="$PROJECT_DIR$/lm/plan-desarrollo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/plan-mefi.html" beforeDir="false" afterPath="$PROJECT_DIR$/lm/plan-mefi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/plan-meya.html" beforeDir="false" afterPath="$PROJECT_DIR$/lm/plan-meya.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lorem.html" beforeDir="false" afterPath="$PROJECT_DIR$/lorem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +137,7 @@
       <workItem from="1527089133964" duration="1409000" />
       <workItem from="1566096652487" duration="3171000" />
       <workItem from="1566100967769" duration="10690000" />
-      <workItem from="1566402200708" duration="16084000" />
+      <workItem from="1566402200708" duration="16782000" />
     </task>
     <task id="LOCAL-00001" summary="Commit incial, rama licenciaturas.&#10;Implementado: &#10;* Licenciatura de Ingeneria de Software.&#10;Incluye:&#10;* Menú&#10;* Lector PDF&#10;* CSS&#10;* Banner&#10;* Archivos PDF&#10;* Información real&#10;&#10;&#10;&#10;Autor: Roberto Gil.&#10;:joy::ok_hand::point_right::fire:">
       <created>1566110520944</created>
@@ -222,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566111859799</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Repair complete!&#10;Run index.php file to test the project!">
+      <created>1566420272492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566420272492</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +181,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit incial, rama licenciaturas.&#10;Implementado: &#10;* Licenciatura de Ingeneria de Software.&#10;Incluye:&#10;* Menú&#10;* Lector PDF&#10;* CSS&#10;* Banner&#10;* Archivos PDF&#10;* Información real&#10;&#10;&#10;&#10;Autor: Roberto Gil.&#10;:joy::ok_hand::point_right::fire:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit incial, rama licenciaturas.&#10;Implementado: &#10;* Licenciatura de Ingeneria de Software.&#10;Incluye:&#10;* Menú&#10;* Lector PDF&#10;* CSS&#10;* Banner&#10;* Archivos PDF&#10;* Información real&#10;&#10;&#10;&#10;Autor: Roberto Gil.&#10;:joy::ok_hand::point_right::fire:" />
+    <MESSAGE value="Repair complete!&#10;Run index.php file to test the project!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repair complete!&#10;Run index.php file to test the project!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
