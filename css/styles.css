@@ -267,7 +267,7 @@ img.banner{
 }
 
 .uady-navbar{
-    padding: 0  !important;
+    padding: 0.5em  !important;
     align-items: center !important;
     alignment: center !important;
 
@@ -364,6 +364,7 @@ html {
     -o-background-size: cover;
     background-size:cover;
     padding-bottom: 100px;
+
 }
 .degree-container{
     padding-left: 80px;

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="900b02ff-167e-4d33-9af1-f6fcbcddeccf" name="Default" comment="Repair complete!&#10;Run index.php file to test the project!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,19 +76,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/lcc" />
-      <recent name="$PROJECT_DIR$/resources/lm" />
-      <recent name="C:\Users\M\Documents\GIT\frontend-FMAT\resources\lem" />
-      <recent name="C:\Users\M\Documents\GIT\frontend-FMAT\resources\lic" />
-      <recent name="C:\Users\M\Documents\GIT\frontend-FMAT\resources\la" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$/lcc" />
       <recent name="$PROJECT_DIR$/lm" />
       <recent name="C:\Users\M\Documents\GIT\frontend-FMAT\lem" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/lcc" />
+      <recent name="$PROJECT_DIR$/resources/lm" />
+      <recent name="C:\Users\M\Documents\GIT\frontend-FMAT\resources\lem" />
+      <recent name="C:\Users\M\Documents\GIT\frontend-FMAT\resources\lic" />
+      <recent name="C:\Users\M\Documents\GIT\frontend-FMAT\resources\la" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -190,7 +190,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/fmat.js</url>
           <line>188</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
