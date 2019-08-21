@@ -7,30 +7,30 @@
     <!--span class="navbar-brand d-flex flex-fill">UADY FMAT</span-->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav justify-content-center d-flex flex-fill" >
-            <li class="nav-item dropdown col-md-4">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdownInformation" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="dropdownInformation" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Información sobre la licenciatura
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="objetivos.html">Objetivos</a>
-                    <a class="dropdown-item" href="perfil-ingreso.html">Perfil de Ingreso</a>
-                    <a class="dropdown-item" href="perfil-egreso.html">Perfil de Egreso</a>
-                    <a class="dropdown-item" href="plan-desarrollo.html">Plan de desarrollo</a>
-                    <a class="dropdown-item" href="guia-estudiante.html">Gu&iacute;a del estudiante</a>
+                    <a class="dropdown-item" id="objetivos" onclick="loadDegreePage(this.id);">Objetivos</a>
+                    <a class="dropdown-item" id="perfil-ingreso" onclick="loadDegreePage(this.id);">Perfil de Ingreso</a>
+                    <a class="dropdown-item" id="perfil-egreso" onclick="loadDegreePage(this.id);">Perfil de Egreso</a>
+                    <a class="dropdown-item" id="plan-desarrollo" onclick="loadDegreePage(this.id);">Plan de desarrollo</a>
+                    <a class="dropdown-item" id="guia-estudiante" onclick="loadDegreePage(this.id);">Gu&iacute;a del estudiante</a>
                 </div>
             </li>
 
-            <li class="nav-item dropdown col-md-4">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdownMEFI" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="dropdownMEFI" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Plan de estudios MEFI
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="plan-mefi.html">Plan de estudios</a>
-                    <a class="dropdown-item" href="malla-mefi.html">Malla Curricular</a>
+                    <a class="dropdown-item" id="plan-mefi" onclick="loadDegreePage(this.id);">Plan de estudios</a>
+                    <a class="dropdown-item" id="malla-mefi" onclick="loadDegreePage(this.id);">Malla Curricular</a>
                 </div>
             </li>
             <li class="nav-item col-md-4">
-                <a class="nav-link" href="plan-meya.html">Plan de estudios MEYA<span class="sr-only">(current)</span></a>
+                <a class="nav-link" id="plan-meya" onclick="loadDegreePage(this.id);">Plan de estudios MEYA<span class="sr-only">(current)</span></a>
             </li>
 
 
