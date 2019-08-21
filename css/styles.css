@@ -7,6 +7,7 @@
 
 body{
   position: relative;
+    background: none;
 }
 
 svg{
@@ -146,30 +147,27 @@ svg:hover{
 
  .plan, .tizimin, .ext {
     padding-left: 0;
-} 
+}
 
 .servicios {
     padding-right: 50px;
 }
 .hexagono {
-width: 100px; 
+  width: 100px;
   height: 50px; 
-  background: #2D2558; 
+  background: #2D2558;
   position: relative;
-  left: 50px;
 }
 
 .hexagono:after {
-    content: ""; 
-    position: absolute; 
-    bottom: -50px; 
-    left: -20px; 
-    width: 0; 
-    height: 0; 
-    border-left: 80px solid transparent; 
-    border-right: 80px solid transparent; 
-    border-top: 50px solid #2D2558;  
-  }
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 50px solid #2D2558;
+
+}
   .dropdown-menu{
   background:#2D2558;
   color:white;
@@ -342,4 +340,32 @@ img{
     .info{
         margin-top: 100px;
     }
+}
+
+
+
+.nv-container {
+    width: 100% !important;
+    white-space: nowrap !important;
+}
+html {
+    height: auto;
+    min-height: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcfff4+0,e8e8c7+100 */
+    background: #fcfff4; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fcfff4 0%, #e8e8c7 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fcfff4 0%,#e8e8c7 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fcfff4 0%,#e8e8c7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e8e8c7',GradientType=0 ); /* IE6-9 */
+    /*background: url("../resources/skin_side_up_@2X.png"); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *! background-size:10%;*/
+    background-repeat: repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    padding-bottom: 100px;
+}
+.degree-container{
+    padding-left: 80px;
+    padding-right: 80px;
 }
